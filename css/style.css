@@ -136,6 +136,82 @@ main {
   border-bottom: 1px solid var(--cor-borda);
 }
 
+.card-img-clicavel {
+  cursor: zoom-in;
+  transition: opacity 0.2s ease;
+}
+
+.card-img-clicavel:hover {
+  opacity: 0.88;
+}
+
+/* ===========================
+   Lightbox
+=========================== */
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+#lightbox.ativo {
+  display: flex;
+}
+
+#lightbox-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  cursor: zoom-out;
+}
+
+#lightbox-box {
+  position: relative;
+  z-index: 1;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#lightbox-img {
+  max-width: 90vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+}
+
+#lightbox-legenda {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+#lightbox-fechar {
+  position: absolute;
+  top: -40px;
+  right: -4px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+#lightbox-fechar:hover {
+  opacity: 1;
+}
+
 .card-body {
   padding: 1rem;
   display: flex;
