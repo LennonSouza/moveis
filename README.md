@@ -12,7 +12,7 @@ venda-moveis/
 ├── js/
 │   └── main.js
 ├── img/
-│   └── (coloque suas fotos aqui)
+│   └── (images)
 └── README.md
 ```
 
