@@ -1,0 +1,276 @@
+/* ===========================
+   Reset & Base
+=========================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte: 'DM Sans', sans-serif;
+  --cor-bg: #f5f4f1;
+  --cor-bg-card: #ffffff;
+  --cor-texto: #1a1a18;
+  --cor-texto-suave: #6b6b64;
+  --cor-borda: rgba(0, 0, 0, 0.1);
+  --cor-borda-forte: rgba(0, 0, 0, 0.2);
+  --cor-desconto-bg: #e6f5ec;
+  --cor-desconto-texto: #1a6636;
+  --cor-acento: #1a1a18;
+  --cor-wpp: #25D366;
+  --cor-wpp-hover: #1aad57;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --sombra-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--fonte);
+  background: var(--cor-bg);
+  color: var(--cor-texto);
+  min-height: 100vh;
+}
+
+/* ===========================
+   Header
+=========================== */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--cor-borda);
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header-titulo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--cor-texto);
+}
+
+.header-subtitulo {
+  font-size: 0.8125rem;
+  color: var(--cor-texto-suave);
+  margin-top: 2px;
+}
+
+.header-badge {
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ===========================
+   Grid
+=========================== */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#grid-moveis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* ===========================
+   Card
+=========================== */
+.card {
+  background: var(--cor-bg-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--sombra-card);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08), 0 12px 32px rgba(0,0,0,0.08);
+}
+
+.card-img-icon {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--cor-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor-texto-suave);
+  font-size: 3rem;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.card-img-foto {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.card-titulo {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.card-descricao {
+  font-size: 0.8125rem;
+  color: var(--cor-texto-suave);
+  line-height: 1.5;
+}
+
+.card-uso {
+  font-size: 0.75rem;
+  color: var(--cor-texto-suave);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-uso i {
+  font-size: 0.875rem;
+}
+
+/* ===========================
+   Preços
+=========================== */
+.card-precos {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--cor-borda);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.preco-novo {
+  font-size: 0.75rem;
+  color: var(--cor-texto-suave);
+  text-decoration: line-through;
+}
+
+.preco-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.preco-venda {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cor-texto);
+  letter-spacing: -0.02em;
+}
+
+.desconto-badge {
+  background: var(--cor-desconto-bg);
+  color: var(--cor-desconto-texto);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ===========================
+   Botão WhatsApp
+=========================== */
+.btn-interesse {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 12px;
+  background: var(--cor-wpp);
+  color: #ffffff;
+  border-radius: var(--radius-sm);
+  font-family: var(--fonte);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.btn-interesse:hover {
+  background: var(--cor-wpp-hover);
+}
+
+.btn-interesse i {
+  font-size: 1rem;
+}
+
+/* ===========================
+   Responsivo
+=========================== */
+@media (max-width: 1024px) {
+  #grid-moveis {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 1.25rem;
+  }
+
+  #grid-moveis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #grid-moveis {
+    grid-template-columns: 1fr;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
