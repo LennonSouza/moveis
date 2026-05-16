@@ -120,13 +120,193 @@ const moveis = [
   },
   {
     id: 12,
-    nome: "sapateira-tecido.png",
-    tempoUso: "3 ano",
+    nome: "Sapateira Tecido",
+    tempoUso: "7 anos",
     precoNovo: 70,
     precoVenda: 40,
     foto: "sapateira-tecido.png",
     icone: "ti-armchair",
     descricao: "Sapateira Organizadora Multiuso 4 Prateleiras."
+  },
+  {
+    id: 13,
+    nome: "Armario buffet",
+    tempoUso: "1 ano",
+    precoNovo: 580,
+    precoVenda: 400,
+    foto: "armario-buffet.png",
+    icone: "ti-armchair",
+    descricao: "Armario buffet."
+  },
+  {
+    id: 14,
+    nome: "Luminaria Tripe",
+    tempoUso: "1 ano",
+    precoNovo: 150,
+    precoVenda: 110,
+    foto: "luminaria-tripe.png",
+    icone: "ti-armchair",
+    descricao: "Luminaria Tripe."
+  },
+  {
+    id: 15,
+    nome: "Caixa de som",
+    tempoUso: "2 anos",
+    precoNovo: 450,
+    precoVenda: 340,
+    foto: "caixa-som.png",
+    icone: "ti-armchair",
+    descricao: "Caixa de som bluetooth, usb e com entrada para microfone."
+  },
+  {
+    id: 16,
+    nome: "Cadeira ergonomica",
+    tempoUso: "5 anos",
+    precoNovo: 350,
+    precoVenda: 210,
+    foto: "cadeira.png",
+    icone: "ti-armchair",
+    descricao: "Cadeira ergonomica."
+  },
+  {
+    id: 17,
+    nome: "Estante 4 nichos",
+    tempoUso: "3 anos",
+    precoNovo: 180,
+    precoVenda: 120,
+    foto: "estante-4nichos.png",
+    icone: "ti-armchair",
+    descricao: "Estante 4 nichos."
+  },
+  {
+    id: 18,
+    nome: "Armario aéreo",
+    tempoUso: "1 ano",
+    precoNovo: 400,
+    precoVenda: 290,
+    foto: "armario-aereo-escritorio.png",
+    icone: "ti-armchair",
+    descricao: "Armario aére para escritorio."
+  },
+  {
+    id: 19,
+    nome: "Estante para livros",
+    tempoUso: "1 ano",
+    precoNovo: 450,
+    precoVenda: 250,
+    foto: "estante-livros.png",
+    icone: "ti-armchair",
+    descricao: "Estante para livros."
+  },
+  {
+    id: 20,
+    nome: "Mesa escritorio",
+    tempoUso: "3 anos",
+    precoNovo: 260,
+    precoVenda: 125,
+    foto: "mesa-escritorio.png",
+    icone: "ti-armchair",
+    descricao: "Mesa para escritorio."
+  },
+  {
+    id: 21,
+    nome: "Hack para TV",
+    tempoUso: "1 ano",
+    precoNovo: 350,
+    precoVenda: 260,
+    foto: "hack-tv.png",
+    icone: "ti-armchair",
+    descricao: "Hack para TV."
+  },
+  {
+    id: 22,
+    nome: "Mesa para cozinha",
+    tempoUso: "1 ano",
+    precoNovo: 340,
+    precoVenda: 240,
+    foto: "mesa-cozinha.png",
+    icone: "ti-armchair",
+    descricao: "Mesa de cozinha com tampo de vidro e com 3 cadeiras."
+  },
+  {
+    id: 23,
+    nome: "Cama king size completa",
+    tempoUso: "2 anos",
+    precoNovo: 3247,
+    precoVenda: 2100,
+    foto: "cama.png",
+    icone: "ti-armchair",
+    descricao: "Colchão de molas ensacadas EcoFlex, com camas bipartidas"
+  },
+  {
+    id: 24,
+    nome: "Recamier king size",
+    tempoUso: "1 ano",
+    precoNovo: 430,
+    precoVenda: 350,
+    foto: "recamier.png",
+    icone: "ti-armchair",
+    descricao: "Recamier para king size."
+  },
+  {
+    id: 25,
+    nome: "Sapateira de madeira",
+    tempoUso: "1 ano",
+    precoNovo: 260,
+    precoVenda: 210,
+    foto: "sapateira-madeira.png",
+    icone: "ti-armchair",
+    descricao: "Sapateira de madeira."
+  },
+  {
+    id: 26,
+    nome: "Mesa para computador",
+    tempoUso: "4 anos",
+    precoNovo: 280,
+    precoVenda: 210,
+    foto: "mesa-computador.png",
+    icone: "ti-armchair",
+    descricao: "Mesa com 3 gavetas com detalhes vermelhos."
+  },
+  {
+    id: 27,
+    nome: "Guarda-Roupas 8 portas",
+    tempoUso: "3 anos",
+    precoNovo: 1050,
+    precoVenda: 700,
+    foto: "guarda-roupas.png",
+    icone: "ti-armchair",
+    descricao: "Guarda-Roupas com 8 portas"
+  },
+  {
+    id: 28,
+    nome: "Comoda com espelho",
+    tempoUso: "3 anos",
+    precoNovo: 600,
+    precoVenda: 450,
+    foto: "penteadeira.png",
+    icone: "ti-armchair",
+    descricao: "Comoda com espelho e 4 gavetas de madeira."
+  },
+  {
+    id: 29,
+    nome: "Sofá retratil",
+    tempoUso: "1 ano",
+    precoNovo: 3500,
+    precoVenda: 2100,
+    foto: "sofa.png",
+    icone: "ti-armchair",
+    descricao: "Sofá retratil 2,5 metros."
+  },
+  {
+    id: 30,
+    nome: "Ar-Condicionado",
+    tempoUso: "3 anos",
+    precoNovo: 3200,
+    precoVenda: 2500,
+    foto: "ar-condicionado.png",
+    icone: "ti-armchair",
+    descricao: "18000 btus inverter."
   }
 ];
 
