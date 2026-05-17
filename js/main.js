@@ -30,7 +30,7 @@ const moveis = [
   { id: 20, nome: "Mesa escritório", tempoUso: "3 anos", precoNovo: 260, precoVenda: 125, foto: "mesa-escritorio.png", icone: "ti-table", descricao: "Mesa para escritório." },
   { id: 21, nome: "Rack para TV", tempoUso: "1 ano", precoNovo: 350, precoVenda: 260, foto: "hack-tv.png", icone: "ti-device-tv", descricao: "Rack para TV." },
   { id: 22, nome: "Mesa para cozinha", tempoUso: "1 ano", precoNovo: 340, precoVenda: 240, foto: "mesa-cozinha.png", icone: "ti-table", descricao: "Mesa de cozinha com tampo de vidro e com 3 cadeiras." },
-  { id: 23, nome: "Cama king size completa", tempoUso: "2 anos", precoNovo: 3247, precoVenda: 2100, foto: "cama.png", icone: "ti-bed", descricao: "Colchão de molas ensacadas EcoFlex, com camas bipartidas." },
+  { id: 23, nome: "Cama king size completa", tempoUso: "2 anos", precoNovo: 3247, precoVenda: 2100, foto: "cama.png", icone: "ti-bed", descricao: "Colchão de molas ensacadas EcoFlex, com cama bipartidas." },
   { id: 24, nome: "Recamier king size", tempoUso: "1 ano", precoNovo: 430, precoVenda: 350, foto: "recamier.png", icone: "ti-sofa", descricao: "Recamier para king size." },
   { id: 25, nome: "Sapateira de madeira", tempoUso: "1 ano", precoNovo: 260, precoVenda: 210, foto: "sapateira-madeira.png", icone: "ti-shoe", descricao: "Sapateira de madeira." },
   { id: 26, nome: "Mesa para computador", tempoUso: "4 anos", precoNovo: 280, precoVenda: 210, foto: "mesa-computador.png", icone: "ti-table", descricao: "Mesa com 3 gavetas com detalhes vermelhos." },
