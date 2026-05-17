@@ -11,14 +11,14 @@ const moveis = [
   { id: 1,  nome: "TV Samsung 50'",            tempoUso: "3 anos", precoNovo: 2215, precoVenda: 1700, foto: "tv.png",                      icone: "ti-device-tv",      descricao: "Samsung Smart TV 50' Crystal UHD 4k." },
   { id: 2,  nome: "Poltrona",                  tempoUso: "3 anos", precoNovo: 199,  precoVenda: 150,  foto: "poltrona.png",                 icone: "ti-armchair",       descricao: "Poltrona Opala, Madeira tratada de eucalipto rosa." },
   { id: 3,  nome: "Adega Bélgic",              tempoUso: "4 anos", precoNovo: 299,  precoVenda: 240,  foto: "adega.png",                    icone: "ti-bottle",         descricao: "Adega de 108cm para 16 Garrafas." },
-  { id: 4,  nome: "Forno Elétrico",            tempoUso: "1 ano",  precoNovo: 399,  precoVenda: 290,  foto: "forno.png",                    icone: "ti-microwave",      descricao: "Forno Elétrico Philco 110v." },
+  { id: 4,  nome: "Forno Elétrico",            vendido: true,  tempoUso: "1 ano",  precoNovo: 399,  precoVenda: 290,  foto: "forno.png",                    icone: "ti-microwave",      descricao: "Forno Elétrico Philco 110v." },
   { id: 5,  nome: "Batedeira Planetária",      tempoUso: "1 ano",  precoNovo: 409,  precoVenda: 330,  foto: "batedeira.png",                icone: "ti-tool",           descricao: "Batedeira 220v Planetária Philco Php500p Turbo 700w Preta." },
   { id: 6,  nome: "Fogão + Mesa do fogão",     vendido: true,  tempoUso: "2 anos", precoNovo: 680,  precoVenda: 500,  foto: "mesaForno.png",                icone: "ti-flame",          descricao: "Mesa Moblis Móveis, fogão Britania 4 bocas." },
-  { id: 7,  nome: "Micro-ondas Eletrolux",     tempoUso: "3 anos", precoNovo: 549,  precoVenda: 380,  foto: "microondas.png",               icone: "ti-microwave",      descricao: "Micro-ondas MTO30 20L 110v Com Função Tira Odor e Descongelar." },
+  { id: 7,  nome: "Micro-ondas Eletrolux",     vendido: true,  tempoUso: "3 anos", precoNovo: 549,  precoVenda: 380,  foto: "microondas.png",               icone: "ti-microwave",      descricao: "Micro-ondas MTO30 20L 110v Com Função Tira Odor e Descongelar." },
   { id: 8,  nome: "Armário para Micro-ondas",  tempoUso: "3 anos", precoNovo: 260,  precoVenda: 190,  foto: "armarioMicroondas.png",        icone: "ti-cabinet",        descricao: "Armário para Micro-ondas Politorno Móveis 1 Nicho 2 Portas de Bater MDP - 58cm." },
   { id: 9,  nome: "Armário aéreo de cozinha",  tempoUso: "1 ano",  precoNovo: 450,  precoVenda: 310,  foto: "armario-aereo-cozinha.png",    icone: "ti-cabinet",        descricao: "Armário aéreo de cozinha." },
   { id: 10, nome: "Armário aéreo basculante",  tempoUso: "1 ano",  precoNovo: 218,  precoVenda: 160,  foto: "armario-aereo-basculante.png", icone: "ti-cabinet",        descricao: "Armário aéreo basculante 80cm." },
-  { id: 11, nome: "Geladeira Consul",          tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1500, foto: "geladeira.png",                icone: "ti-refrigerator",   descricao: "Geladeira Frost Free 296L Consul 110v com Painel Externo." },
+  { id: 11, nome: "Geladeira Consul",          vendido: true,  tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1500, foto: "geladeira.png",                icone: "ti-refrigerator",   descricao: "Geladeira Frost Free 296L Consul 110v com Painel Externo." },
   { id: 12, nome: "Sapateira Tecido",          tempoUso: "7 anos", precoNovo: 70,   precoVenda: 40,   foto: "sapateira-tecido.png",         icone: "ti-shoe",           descricao: "Sapateira Organizadora Multiuso 4 Prateleiras." },
   { id: 13, nome: "Armário buffet",            tempoUso: "1 ano",  precoNovo: 580,  precoVenda: 400,  foto: "armario-buffet.png",           icone: "ti-cabinet",        descricao: "Armário buffet." },
   { id: 14, nome: "Luminária Tripé",           tempoUso: "1 ano",  precoNovo: 150,  precoVenda: 110,  foto: "luminaria-tripe.png",          icone: "ti-bulb",           descricao: "Luminária Tripé." },
@@ -32,7 +32,7 @@ const moveis = [
   { id: 22, nome: "Mesa para cozinha",         tempoUso: "1 ano",  precoNovo: 340,  precoVenda: 240,  foto: "mesa-cozinha.png",             icone: "ti-table",          descricao: "Mesa de cozinha com tampo de vidro e com 3 cadeiras." },
   { id: 23, nome: "Cama king size completa",   tempoUso: "2 anos", precoNovo: 3247, precoVenda: 2100, foto: "cama.png",                     icone: "ti-bed",            descricao: "Colchão de molas ensacadas EcoFlex, com cama bipartidas." },
   { id: 24, nome: "Recamier king size",        tempoUso: "1 ano",  precoNovo: 430,  precoVenda: 350,  foto: "recamier.png",                 icone: "ti-sofa",           descricao: "Recamier para king size." },
-  { id: 25, nome: "Sapateira de madeira",      tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
+  { id: 25, nome: "Sapateira de madeira",      vendido: true,  tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
   { id: 26, nome: "Mesa para computador",      tempoUso: "4 anos", precoNovo: 280,  precoVenda: 210,  foto: "mesa-computador.png",          icone: "ti-table",          descricao: "Mesa com 3 gavetas com detalhes vermelhos." },
   { id: 27, nome: "Guarda-Roupas 8 portas",    tempoUso: "3 anos", precoNovo: 1050, precoVenda: 700,  foto: "guarda-roupas.png",            icone: "ti-hanger",         descricao: "Guarda-Roupas com 8 portas." },
   { id: 28, nome: "Cômoda com espelho",        tempoUso: "3 anos", precoNovo: 600,  precoVenda: 450,  foto: "penteadeira.png",              icone: "ti-mirror",         descricao: "Cômoda com espelho e 4 gavetas de madeira." },
@@ -42,7 +42,8 @@ const moveis = [
   { id: 32, nome: "Cafeteira Philco",          tempoUso: "Nova",   precoNovo: 210,  precoVenda: 160,  foto: "cafeteira.png",                icone: "ti-coffee",         descricao: "Cafeteira na caixa, nunca usada 220v." },
   { id: 33, nome: "Ar-Condicionado Portátil",  tempoUso: "3 anos", precoNovo: 2400, precoVenda: 1500, foto: "ar-portatil.png",              icone: "ti-air-conditioning", descricao: "Ar-condicionado portátil 11000 btus Britania." },
   { id: 34, nome: "Máquina Lava e Seca 11kg",  tempoUso: "3 anos", precoNovo: 3400, precoVenda: 2500, foto: "lava-seca.png",                icone: "ti-washing-machine", descricao: "Máquina Lava e Seca Midea 11kg 220v." },
-  { id: 35, nome: "Freezer Midea 205L",        tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1550, foto: "frezzer.png",                  icone: "ti-snowflake",      descricao: "Freezer Midea 205L 110v." }
+  { id: 35, nome: "Sapateira de madeira",      tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
+  { id: 36, nome: "Freezer Midea 205L",        tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1550, foto: "frezzer.png",                  icone: "ti-snowflake",      descricao: "Freezer Midea 205L 110v." }
 ];
 
 /* ===========================
