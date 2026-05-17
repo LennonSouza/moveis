@@ -34,15 +34,15 @@ const moveis = [
   { id: 24, nome: "Recamier king size",        tempoUso: "1 ano",  precoNovo: 430,  precoVenda: 350,  foto: "recamier.png",                 icone: "ti-sofa",           descricao: "Recamier para king size." },
   { id: 25, nome: "Sapateira de madeira",      tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
   { id: 26, nome: "Mesa para computador",      tempoUso: "4 anos", precoNovo: 280,  precoVenda: 210,  foto: "mesa-computador.png",          icone: "ti-table",          descricao: "Mesa com 3 gavetas com detalhes vermelhos." },
-  { id: 27, nome: "Guarda-Roupas 8 portas",   tempoUso: "3 anos", precoNovo: 1050, precoVenda: 700,  foto: "guarda-roupas.png",            icone: "ti-hanger",         descricao: "Guarda-Roupas com 8 portas." },
+  { id: 27, nome: "Guarda-Roupas 8 portas",    tempoUso: "3 anos", precoNovo: 1050, precoVenda: 700,  foto: "guarda-roupas.png",            icone: "ti-hanger",         descricao: "Guarda-Roupas com 8 portas." },
   { id: 28, nome: "Cômoda com espelho",        tempoUso: "3 anos", precoNovo: 600,  precoVenda: 450,  foto: "penteadeira.png",              icone: "ti-mirror",         descricao: "Cômoda com espelho e 4 gavetas de madeira." },
   { id: 29, nome: "Sofá retrátil",             tempoUso: "1 ano",  precoNovo: 3500, precoVenda: 2100, foto: "sofa.png",                     icone: "ti-sofa",           descricao: "Sofá retrátil 2,5 metros." },
   { id: 30, nome: "Ar-Condicionado",           tempoUso: "3 anos", precoNovo: 3200, precoVenda: 2500, foto: "ar-condicionado.png",          icone: "ti-air-conditioning", descricao: "18000 btus inverter." },
   { id: 31, nome: "Armário de produtos",       tempoUso: "1 ano",  precoNovo: 290,  precoVenda: 210,  foto: "armario-limpeza.png",          icone: "ti-cabinet",        descricao: "Armário para produtos de limpeza." },
-  { id: 32, nome: "Cafeteira Philco",          tempoUso: "Nova",   precoNovo: 210,  precoVenda: 160,  foto: "cafeteira.png",                icone: "ti-coffee",         descricao: "Cafeteira na caixa, nunca usada." },
+  { id: 32, nome: "Cafeteira Philco",          tempoUso: "Nova",   precoNovo: 210,  precoVenda: 160,  foto: "cafeteira.png",                icone: "ti-coffee",         descricao: "Cafeteira na caixa, nunca usada 220v." },
   { id: 33, nome: "Ar-Condicionado Portátil",  tempoUso: "3 anos", precoNovo: 2400, precoVenda: 1500, foto: "ar-portatil.png",              icone: "ti-air-conditioning", descricao: "Ar-condicionado portátil 11000 btus Britania." },
-  { id: 34, nome: "Máquina Lava e Seca 11kg",  tempoUso: "3 anos", precoNovo: 3400, precoVenda: 2500, foto: "lava-seca.png",                icone: "ti-washing-machine", descricao: "Máquina Lava e Seca Midea 11kg." },
-  { id: 35, nome: "Freezer Midea 205L",        tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1550, foto: "frezzer.png",                  icone: "ti-snowflake",      descricao: "Freezer Midea 205L." }
+  { id: 34, nome: "Máquina Lava e Seca 11kg",  tempoUso: "3 anos", precoNovo: 3400, precoVenda: 2500, foto: "lava-seca.png",                icone: "ti-washing-machine", descricao: "Máquina Lava e Seca Midea 11kg 220v." },
+  { id: 35, nome: "Freezer Midea 205L",        tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1550, foto: "frezzer.png",                  icone: "ti-snowflake",      descricao: "Freezer Midea 205L 110v." }
 ];
 
 /* ===========================
