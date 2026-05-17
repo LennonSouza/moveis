@@ -14,7 +14,7 @@ const moveis = [
   { id: 4, nome: "Forno Elétrico", tempoUso: "1 ano", precoNovo: 399, precoVenda: 320, foto: "forno.png", icone: "ti-microwave", descricao: "Forno Elétrico Philco 110v." },
   { id: 5, nome: "Batedeira Planetária", tempoUso: "1 ano", precoNovo: 409, precoVenda: 330, foto: "batedeira.png", icone: "ti-tool", descricao: "Batedeira 220v Planetária Philco Php500p Turbo 700w Preta." },
   { id: 6, nome: "Fogão + Mesa do fogão", tempoUso: "2 anos", precoNovo: 680, precoVenda: 500, foto: "mesaForno.png", icone: "ti-flame", descricao: "Mesa Moblis Móveis, fogão Britania 4 bocas." },
-  { id: 7, nome: "Micro-ondas Eletrolux", tempoUso: "3 anos", precoNovo: 549, precoVenda: 440, foto: "microondas.png", icone: "ti-microwave", descricao: "Micro-ondas MTO30 20L 110v Com Função Tira Odor e Descongelar." },
+  { id: 7, nome: "Micro-ondas Eletrolux", tempoUso: "3 anos", precoNovo: 549, precoVenda: 380, foto: "microondas.png", icone: "ti-microwave", descricao: "Micro-ondas MTO30 20L 110v Com Função Tira Odor e Descongelar." },
   { id: 8, nome: "Armário para Micro-ondas", tempoUso: "3 anos", precoNovo: 260, precoVenda: 190, foto: "armarioMicroondas.png", icone: "ti-cabinet", descricao: "Armário para Micro-ondas Politorno Móveis 1 Nicho 2 Portas de Bater MDP - 58cm." },
   { id: 9, nome: "Armário aéreo de cozinha", tempoUso: "1 ano", precoNovo: 450, precoVenda: 310, foto: "armario-aereo-cozinha.png", icone: "ti-cabinet", descricao: "Armário aéreo de cozinha." },
   { id: 10, nome: "Armário aéreo basculante", tempoUso: "1 ano", precoNovo: 218, precoVenda: 160, foto: "armario-aereo-basculante.png", icone: "ti-cabinet", descricao: "Armário aéreo basculante 80cm." },
