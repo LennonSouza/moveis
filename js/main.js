@@ -27,7 +27,7 @@ const moveis = [
   { id: 17, nome: "Estante 4 nichos",          tempoUso: "3 anos", precoNovo: 180,  precoVenda: 120,  foto: "estante-4nichos.png",          icone: "ti-layout-rows",    descricao: "Estante 4 nichos." },
   { id: 18, nome: "Armário aéreo escritório",  tempoUso: "1 ano",  precoNovo: 400,  precoVenda: 290,  foto: "armario-aereo-escritorio.png", icone: "ti-cabinet",        descricao: "Armário aéreo para escritório." },
   { id: 19, nome: "Estante 10 nichos",         tempoUso: "1 ano",  precoNovo: 450,  precoVenda: 250,  foto: "estante-livros.png",           icone: "ti-books",          descricao: "Estante com espaço de 10 nichos." },
-  { id: 20, nome: "Mesa escritório",           tempoUso: "3 anos", precoNovo: 260,  precoVenda: 125,  foto: "mesa-escritorio.png",          icone: "ti-table",          descricao: "Mesa para escritório." },
+  { id: 20, nome: "Mesa escritório",           vendido: true,  tempoUso: "3 anos", precoNovo: 260,  precoVenda: 125,  foto: "mesa-escritorio.png",          icone: "ti-table",          descricao: "Mesa para escritório." },
   { id: 21, nome: "Rack para TV",              tempoUso: "1 ano",  precoNovo: 350,  precoVenda: 260,  foto: "hack-tv.png",                  icone: "ti-device-tv",      descricao: "Rack para TV." },
   { id: 22, nome: "Mesa para cozinha",         tempoUso: "1 ano",  precoNovo: 340,  precoVenda: 240,  foto: "mesa-cozinha.png",             icone: "ti-table",          descricao: "Mesa de cozinha com tampo de vidro e com 3 cadeiras." },
   { id: 23, nome: "Cama king size completa",   tempoUso: "2 anos", precoNovo: 3247, precoVenda: 2100, foto: "cama.png",                     icone: "ti-bed",            descricao: "Colchão de molas ensacadas EcoFlex, com cama bipartidas." },
