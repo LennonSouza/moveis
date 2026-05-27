@@ -9,7 +9,7 @@ const config = {
 
 const moveis = [
   { id: 1,  nome: "TV Samsung 50'",            tempoUso: "3 anos", precoNovo: 2215, precoVenda: 1700, foto: "tv.png",                      icone: "ti-device-tv",      descricao: "Samsung Smart TV 50' Crystal UHD 4k." },
-  { id: 2,  nome: "Poltrona",                  tempoUso: "3 anos", precoNovo: 199,  precoVenda: 150,  foto: "poltrona.png",                 icone: "ti-armchair",       descricao: "Poltrona Opala, Madeira tratada de eucalipto rosa." },
+  { id: 2,  nome: "Poltrona",                  vendido: true,  tempoUso: "3 anos", precoNovo: 199,  precoVenda: 150,  foto: "poltrona.png",                 icone: "ti-armchair",       descricao: "Poltrona Opala, Madeira tratada de eucalipto rosa." },
   { id: 3,  nome: "Adega Bélgic",              tempoUso: "4 anos", precoNovo: 299,  precoVenda: 240,  foto: "adega.png",                    icone: "ti-bottle",         descricao: "Adega de 108cm para 16 Garrafas." },
   { id: 4,  nome: "Forno Elétrico",            vendido: true,  tempoUso: "1 ano",  precoNovo: 399,  precoVenda: 290,  foto: "forno.png",                    icone: "ti-microwave",      descricao: "Forno Elétrico Philco 110v." },
   { id: 5,  nome: "Batedeira Planetária",      tempoUso: "1 ano",  precoNovo: 409,  precoVenda: 290,  foto: "batedeira.png",                icone: "ti-tool",           descricao: "Batedeira 220v Planetária Philco Php500p Turbo 700w Preta." },
