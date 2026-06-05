@@ -42,7 +42,7 @@ const moveis = [
   { id: 32, nome: "Cafeteira Philco",          vendido: true,  tempoUso: "Nova",   precoNovo: 210,  precoVenda: 150,  foto: "cafeteira.png",                icone: "ti-coffee",         descricao: "Cafeteira na caixa, nunca usada 220v." },
   { id: 33, nome: "Ar-Condicionado Portátil",  tempoUso: "3 anos", precoNovo: 2400, precoVenda: 1350, foto: "ar-portatil.png",              icone: "ti-air-conditioning", descricao: "Ar-condicionado portátil 11000 btus Britania." },
   { id: 34, nome: "Máquina Lava e Seca 11kg",  tempoUso: "3 anos", precoNovo: 3400, precoVenda: 2300, foto: "lava-seca.png",                icone: "ti-washing-machine", descricao: "Máquina Lava e Seca Midea 11kg 220v." },
-  { id: 35, nome: "Sapateira de madeira",      tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
+  { id: 35, nome: "Sapateira de madeira",      vendido: true,  tempoUso: "1 ano",  precoNovo: 260,  precoVenda: 210,  foto: "sapateira-madeira.png",        icone: "ti-shoe",           descricao: "Sapateira de madeira." },
   { id: 36, nome: "Freezer Midea 205L",        tempoUso: "3 anos", precoNovo: 2000, precoVenda: 1550, foto: "frezzer.png",                  icone: "ti-snowflake",      descricao: "Freezer Midea 205L 110v." },
   { id: 36, nome: "Mesa de centro sala",       tempoUso: "3 anos", precoNovo: 140, precoVenda: 70, foto: "mesaCentro.png",                  icone: "ti-snowflake",      descricao: "Mesa para centro de sala" }
 ];
